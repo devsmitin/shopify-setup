@@ -4,7 +4,7 @@ My personal Shopify theme development setup
 
 ## Use below snippets to install tools for Shopify development on Debian/Ubuntu based distros
 
-### Necessary tools
+### Install basic tools
   
 ```sh
 sudo apt install git curl zsh
@@ -17,11 +17,12 @@ Set zsh as default and restart your session.
 
 ```sh
 curl -s https://shopify.github.io/themekit/scripts/install.py | sudo python
+```
 
 You can install python using below command if required.
 
 ```sh
-$ sudo apt install python
+sudo apt install python
 ```
 
 ### Install nvm to setup node
@@ -50,5 +51,5 @@ nvm alias default node
 
 ```sh
 sudo apt-get install ruby-full
-$ sudo gem install shopify-cli
+sudo gem install shopify-cli
 ```
